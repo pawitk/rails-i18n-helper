@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle rails-i18n-helper",
+        "command": "rails-i18n-helper:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "rails-i18n-helper",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "rails-i18n-helper:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
